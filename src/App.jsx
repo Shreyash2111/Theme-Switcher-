@@ -24,7 +24,7 @@ function App() {
   };
   return (
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
-      <div className="w-screen h-screen  flex flex-col gap-4 py-12 sm:justify-center items-center ">
+      <div className="w-screen h-screen  flex flex-col gap-4 py-12 sm:py-0 sm:justify-center items-center ">
         <div className="flex gap-3 justify-center items-center">
           <p className="text-xl sm:text-3xl">Dark Mode</p>
 
@@ -49,7 +49,7 @@ function App() {
               $26.00
             </div>
           </div>
-          <div className="dark:text-white text-sm sm:text-md font-light">
+          <div className="dark:text-white text-sm sm:text-lg font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
             beatae qui veniam maxime ea at reiciendis odio aut placeat quam ex
             sed minima non vero! Dolores distinctio debitis cupiditate? Maiores.
